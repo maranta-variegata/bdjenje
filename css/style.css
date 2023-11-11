@@ -1,0 +1,156 @@
+
+body{
+  background-color: rgb(255,255,255);
+
+  background-image: url('index.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+	  color: white;
+	  height: 100%;
+
+  animation-name: colorchange;
+  animation-duration: 100s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+/* customizable snowflake styling */
+.snowflake {
+  color: #fff;
+  opacity: 50%;
+  font-size: 2em;
+  font-family: Serif;
+  text-shadow: 0 0 1px #000;
+}
+
+ @keyframes colorchange{
+        0%{background-color: #000000;}
+        10%{background-color: #FFFFFF;}
+        20%{background-color: #000000;}
+        30%{background-color: #FFFFFF;}
+        40%{background-color: #000000;}
+        50%{background-color: #ffffff;}
+        60%{background-color: #000000;}
+        70%{background-color: #FFFFFF;}
+        80%{background-color: #000000;}
+        90%{background-color: #ffffff;}
+        100%{background-color: #000000;}
+}
+
+@-webkit-keyframes snowflakes-fall
+{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake
+{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%
+{-webkit-transform:translateX(80px);transform:translateX(80px)}100%
+{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall
+{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake
+{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake
+{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;
+	-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,
+	snowflakes-shake;-webkit-animation-duration:30s,20s;-webkit-animation-timing-function:linear,ease-in-out;
+	-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;
+	animation-name:snowflakes-fall,snowflakes-shake;animation-duration:30s,20s;
+	animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;
+	animation-play-state:running,running}.snowflake:nth-of-type(0)
+	{left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1)
+	{left:10%;-webkit-animation-delay:10s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2)
+	{left:15%;-webkit-animation-delay:6s,.15s;animation-delay:6s,.5s}.snowflake:nth-of-type(3)
+	{left:20%;-webkit-animation-delay:14s,2s;animation-delay:40s,2s}.snowflake:nth-of-type(4)
+	{left:25%;-webkit-animation-delay:12s,20s;animation-delay:2s,2s}.snowflake:nth-of-type(5)
+	{left:30%;-webkit-animation-delay:18s,3s;animation-delay:8s,13s}.snowflake:nth-of-type(6)
+	{left:35%;-webkit-animation-delay:6s,12s;animation-delay:6s,2s}.snowflake:nth-of-type(7)
+	{left:40%;-webkit-animation-delay:12.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8)
+	{left:45%;-webkit-animation-delay:1s,10s;animation-delay:1s,0s}.snowflake:nth-of-type(9)
+	{left:50%;-webkit-animation-delay:3s,1.5s;animation-delay:13s,1.5s}.snowflake:nth-of-type(10)
+	{left:55%;-webkit-animation-delay:23s,1.5s;animation-delay:3s,5s}.snowflake:nth-of-type(11)
+	{left:60%;-webkit-animation-delay:34s,1.5s;animation-delay:8s,1.5s}.snowflake:nth-of-type(12)
+	{left:65%;-webkit-animation-delay:3s,7s;animation-delay:3s,6.5s}.snowflake:nth-of-type(13)
+  {left:70%;-webkit-animation-delay:37s,17s;animation-delay:9s,0.5s}.snowflake:nth-of-type(14)
+  {left:75%;-webkit-animation-delay:17s,7s;animation-delay:9s,0.5s}.snowflake:nth-of-type(15)
+  {left:64%;-webkit-animation-delay:1s,0s;animation-delay:5s,0s}.snowflake:nth-of-type(16)
+	{left:56%;-webkit-animation-delay:15s,1s;animation-delay:1s,16s}.snowflake:nth-of-type(17)
+	{left:47%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(18)
+	{left:34%;-webkit-animation-delay:1s,2s;animation-delay:30s,2s}.snowflake:nth-of-type(19)
+	{left:26%;-webkit-animation-delay:22s,20s;animation-delay:2s,2s}.snowflake:nth-of-type(20)
+	{left:20%;-webkit-animation-delay:18s,33s;animation-delay:17s,13s}.snowflake:nth-of-type(21)
+	{left:14%;-webkit-animation-delay:7s,1s;animation-delay:6s,22s}.snowflake:nth-of-type(22)
+	{left:12%;-webkit-animation-delay:2.5s,8s;animation-delay:2.5s,1s}.snowflake:nth-of-type(23)
+	{left:10%;-webkit-animation-delay:10s,10s;animation-delay:1s,10s}.snowflake:nth-of-type(24)
+	{left:5%;-webkit-animation-delay:3s,5s;animation-delay:3s,1s}.snowflake:nth-of-type(25)
+
+
+
+/* Demo Purpose Only*/
+.demo {
+  font-family: 'Raleway', sans-serif;
+	color:#fff;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+}
+.demo a{
+  font-family: 'Raleway', sans-serif;
+color: #000;		
+}
+
+
+
+
+.button1 {
+	color: black;
+	background-color: black;
+	display:block;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body {
+	font-family:  Raleway, Arial;
+    background-color: black;
+	  color: #cdcdcd;
+}
+
+
+.title_name {
+	font-size: 30px;
+	color: blue;
+
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+

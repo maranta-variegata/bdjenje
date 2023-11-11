@@ -1,0 +1,43 @@
+
+body, html {
+  height: 100%;
+}
+
+body {
+	font-family:  Raleway, Arial;
+    background-image: url('tree.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+	  color: black;
+	  height: 100%;
+}
+
+
+.title_name {
+	font-size: 30px;
+	color: blue;
+
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.pasos {
+	width: 20%;
+	margin: auto;
+	padding: 10px;
+	float: left;
+	letter-spacing: 2px;
+	font-weight: ;
+	
+
+}
+
+
+

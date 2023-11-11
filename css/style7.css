@@ -1,0 +1,43 @@
+
+body, html {
+  height: 100%;
+}
+
+body {
+	font-family:  Raleway, Arial;
+    background-image: url('rose.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+	  color: white;
+	  height: 100%;
+}
+
+
+.title_name {
+	font-size: 30px;
+	color: blue;
+
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.pasos {
+	width: 20%;
+	margin: auto;
+	padding: 40px;
+
+	float: right;
+	letter-spacing: 3px;
+	word-spacing: 7px;
+
+}
+
+
+

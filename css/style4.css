@@ -1,0 +1,127 @@
+
+
+
+
+@font-face {
+	font-family: "Raleway";
+
+	src: url("../fonts/Raleway-Medium.ttf") format("truetype");
+	 /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: "RalewayDots";
+
+	src: url("../fonts/RalewayDots-Regular.ttf") format("truetype");
+	 /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+	font-family:  Raleway, Arial;
+    background-image: url('squid.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100%;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+
+/*                    GRID BEGINS                       */
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+
+.wrapper {
+  display: grid;
+  gap: .5rem;
+  grid-auto-rows: minmax(100px, auto);
+  
+  
+}
+
+@media screen and (min-width: 40em) {
+  .wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 42px;
+  } 
+}
+
+.wrapper div {
+  
+  display: flex;
+  align-items: flex-end;
+}
+
+/*                    GRID ENDS                         */
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+
+
+/*                  TRAKICA BEGINS                      */
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+.container {
+  overflow: hidden;
+  white-space: nowrap;
+  
+
+}
+
+.scrolling {
+  will-change: transform;
+  font-size: 200px;
+  animation: marquee 400s linear infinite;
+  display: inline-block;
+  padding-right: 10px;
+  color: black;
+  opacity: 0.50;
+  margin-top: 50px;
+
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to { 
+    transform: translateX(-100%);
+  }
+}
+
+/*                TRAKICA ENDS                          */
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+
+
+.button1 {
+  color: black;
+  background-color: black;
+  display:block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
